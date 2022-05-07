@@ -12,7 +12,7 @@ if (confirm === false) {
 const carta = comprarCarta();
 usuario = carta.valor
 const carta2 = comprarCarta();
-console.log(`O usuário tirou as  cartas ${carta.texto}, ${carta2.texto}`) 
+console.log(`O usuário tirou as  cartas ${carta.texto},  ${carta2.texto}`) 
 pontosUsuario = usuario + carta2.valor
 console.log(`Total de pontos do usuario é: ${pontosUsuario}`);
 

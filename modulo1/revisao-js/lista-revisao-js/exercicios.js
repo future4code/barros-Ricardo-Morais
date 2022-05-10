@@ -12,8 +12,9 @@ array = [8, 9, 3]
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+  return array.reverse()
 }
+array = [8, 9, 3]
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {

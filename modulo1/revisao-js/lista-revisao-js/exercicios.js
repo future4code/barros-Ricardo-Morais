@@ -4,7 +4,7 @@
 
 
 // EXERCÍCIO 01
-/*function retornaTamanhoArray(array) {
+function retornaTamanhoArray(array) {
    return array.length
 }
 array = [8, 9, 3]
@@ -15,7 +15,7 @@ function retornaArrayInvertido(array) {
   return array.reverse()
 }
 array = [8, 9, 3, 5]
-*/
+
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
   function ordenar(a, b){
@@ -26,12 +26,26 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+    let novoArray = []
+   for (let numerosPares1 of array) {
+       if (numerosPares1 % 2 === 0){
+           novoArray.push(numerosPares1)
+       }
+   }
+   return novoArray
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+    let novoArray = []
+    for (let numerosPares1 of array) {
+        if (numerosPares1 % 2 === 0){
+            novoArray.push(numerosPares1)
+        }
+    }
+        let numerosDobro = novoArray.map(item) {
+            return numerosDobro * numerosDobro={}
+        }
 }
 
 // EXERCÍCIO 06

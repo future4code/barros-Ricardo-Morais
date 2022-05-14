@@ -123,32 +123,73 @@ array2.push(segundoMaiorNumero, segundoMenorNumero)
 }
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+   filme = {
+       nome: "O Diabo Veste Prada",
+       ano: 2006,
+       diretor: "David Frankel",
+       atores: ["Maryl Streep", "Anne Hathaway", "Emily Blunt", "Stanley Tucci"]
+   }
+   return "Venha assistir ao filme O Diabo Veste Prada, de 2006, dirigido por David Frankel e estrelado por Meryl Streep, Anne Hathaway, Emily Blunt, Stanley Tucci."
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+   pessoa.nome = "ANÔNIMO"
+   return pessoa
 }
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+   let permissaoEntrada = pessoas.filter ((item) => {
+       if (item.altura >= 1.5 && item.idade > 14 && item.idade < 60){
+           return item
+       }
+   })
+   return permissaoEntrada
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+  let naoPermissaoEntrada = pessoas.filter ((item) => {
+      if (item.altura < 1.5 || item.idade <= 14 || item.idade >= 60) {
+          return item
+      }
+  })
+  return naoPermissaoEntrada
 }
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
+    let saldo = contas.map((item) =>{
+        return item.compras.reduce((valor1, valor2) =>{
+            return valor1 + valor2
+        }, 0)
+    })
 
+    for (let i = 0; i < contas.length; i++) {
+        contas[i].saldoTotal -= saldo[i]
+        contas[i].compras = []
+    }
+    return contas
 }
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+  let nome = []
+  for (objeto of consultas) {
+      nome.push(objeto.nome)
+  }
+  let nomesOrdenados = nome.sort()
+  let ordenados = []
+
+  nomesOrdenados.map((nomeOrdenado) =>{
+      consultas.map((objetoConsultas, index) =>{
+          if (objetoConsultas.nome === nomeOrdenado) {
+              ordenados.push(consultas[index])
+          }
+      })
+  })
+  return ordenados
 }
 
 // EXERCÍCIO 15B

@@ -1,0 +1,40 @@
+body {
+   background-image: url(img/papel-velho.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+}
+.rodape {
+    height: 100px;
+    background-color: rgb(150, 109, 7);
+    clear: both;
+    margin-top: 800px;
+
+}
+.container {
+   margin-left: 230px;
+   margin-top: 100px;
+}
+.texto-inicial {
+    margin-left: 500px;
+    margin-top: 150px;
+}
+.foto-familia {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.conteudo {
+    margin-left: 280px;
+}
+
+h2 {
+    color: rgb(133, 11, 27);
+    
+}
+
+p {
+    color: rgb(133, 11, 27);
+}
+h4 {
+    color: rgb(133, 11, 27);
+}

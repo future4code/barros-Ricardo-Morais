@@ -1,0 +1,20 @@
+body {
+    background-image: url(img/fundo-loja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#camisas{
+    margin-left: 200px;
+}
+#texto-inicial {
+    margin-left: 300px;
+}
+nav {
+    margin-left: 385px;
+}
+footer {
+    margin: 300px 350px 20px 465px;
+}
+h1 {
+   font-weight: 200;
+}

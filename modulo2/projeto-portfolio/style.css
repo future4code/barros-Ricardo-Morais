@@ -4,6 +4,12 @@ body {
    background-repeat: no-repeat;
  
 }
+.texto-inicial {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin-top: 150PX ;
+    color: rgb(133, 11, 27);
+}
 .rodape {
     height: 100px;
     background-color: rgb(150, 109, 7);
@@ -15,10 +21,7 @@ body {
    margin-left: 230px;
    margin-top: 100px;
 }
-.texto-inicial {
-    margin-left: 500px;
-    margin-top: 150px;
-}
+
 .foto-familia {
     margin-left: 350px;
     margin-top: 50px;
@@ -32,7 +35,8 @@ h2 {
     
 }
 
-p {
+p { 
+    font-size: large;
     color: rgb(133, 11, 27);
 }
 h4 {

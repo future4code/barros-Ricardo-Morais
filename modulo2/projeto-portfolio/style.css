@@ -1,0 +1,73 @@
+body {
+   background-image: url(img/papel-velho.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+}
+.texto-inicial {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    margin-top: 150PX ;
+    color: rgb(133, 11, 27);
+}
+.container {
+   margin-left: 230px;
+   margin-top: 100px;
+}
+
+.foto-familia {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+.conteudo {
+    margin-left: 280px;
+}
+
+h2 {
+    color: rgb(133, 11, 27);
+    
+}
+
+p { 
+    font-size: large;
+    color: rgb(133, 11, 27);
+}
+h4 {
+    color: rgb(133, 11, 27);
+}
+.texto-inicial, img {
+   margin-top: 100px;
+ 
+}
+
+.rodape {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.pet1 {
+    margin-left: 450px;
+}
+
+.comentarioPet1 {
+    text-align: center;
+}
+
+.emprego1 {
+    text-align: center;
+}
+.emprego2 {
+    text-align: center;
+}
+
+.emprego3 {
+    text-align: center;
+}
+
+.emprego4 {
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+}

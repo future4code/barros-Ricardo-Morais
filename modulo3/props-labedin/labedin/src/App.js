@@ -22,7 +22,7 @@ function App() {
         />
       </div>
 
-      <div className="page-section-container">
+      <div className="page-section-container-pequeno">
         <h2>Contato</h2>
         <CardPequeno
           

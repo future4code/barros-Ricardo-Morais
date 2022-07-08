@@ -16,7 +16,6 @@ export const Left = styled.h1`
 `
 export const Right = styled.h1`
     display: inline-block;
-    
     height: 600px;
     width: 200px;
     background-color: orange;
@@ -28,7 +27,7 @@ export const Main = styled.h1`
    margin-left: 5px;
    height: 600px;
    width: 940px;
-   background-color: red;
+   background-color: white;
 `
 export const Footer = styled.h1`
     text-align: center;

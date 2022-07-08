@@ -2,6 +2,7 @@ import React from 'react';
 import Post from './components/Post/Post';
 import './style.css'
 import {MainContainer} from './components/Post/style.js';
+import { useState } from 'react';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 const listaPost = [
   {
     nomeUsuario:'Paulinha',
-    fotoUsuario:'https://picsum.photos/50/51',
+    fotoUsuario:'https://picsum.photos/50/50',
     fotoPost:'https://picsum.photos/200/150'
   },
 

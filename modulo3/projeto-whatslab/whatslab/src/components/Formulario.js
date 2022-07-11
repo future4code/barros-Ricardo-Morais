@@ -33,3 +33,4 @@ export default function Formulario() {
         }
     }
 }
+console.log(Formulario);

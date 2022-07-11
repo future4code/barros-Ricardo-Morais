@@ -20,10 +20,12 @@ function App() {
 
       <Main>
         Main
-
+        <div className="container">
+          
+        </div>
         
       </Main>
-
+      
       <Right>
         Right
       </Right>

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: hotpink;
+  padding: 50px;
 }
 
 .App-logo {
@@ -7,6 +9,9 @@
   pointer-events: none;
 }
 
+.meu-componente {
+  background-color: yellowgreen;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

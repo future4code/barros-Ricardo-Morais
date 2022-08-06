@@ -1,10 +1,9 @@
+import { HeaderContainer } from "./style";
+
 export function Header () {
     return (
-        <>
-
-            <h1>Header</h1>
-
-
-        </>
+        <HeaderContainer>
+            <h1>ASTROMATCH</h1>
+        </HeaderContainer>
     )
 }

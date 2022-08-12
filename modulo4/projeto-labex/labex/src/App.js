@@ -1,10 +1,14 @@
 
-import './App.css';
+import React from "react";
+import RouterPage from "./components/Router";
+
+
 
 function App() {
   return (
     <div className="App">
-     <p>Labex</p>
+        <RouterPage/>
+        
     </div>
   );
 }

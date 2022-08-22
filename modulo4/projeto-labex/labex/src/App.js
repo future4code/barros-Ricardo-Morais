@@ -1,23 +1,18 @@
+import Router from "./routes/Router";
 
-import React from "react";
-import { BASE_URL } from "./components/Constants/constants";
-import { Container } from "./components/HomePage/style";
-import RouterPage from "./components/Router";
-import useRequestData from "./hook/UseRequestData";
+import { useEffect } from "react";
+import Loading from "./components/loading/Loading";
 
-
+export const apiUrl = 'https://us-central1-labenu-apis.cloudfunctions.net/labeX/'
+export const student = 'ricardo-barros-barros/'
 
 function App() {
-  const nomeUsuarios = useRequestData(`${BASE_URL}users`)
+  useEffect(() => {
+    document.title = "LabeX"
+  }, [])
   return (
     
-    <div className="App">
-        <RouterPage/>
-        <Container/>
-       
-        
-        
-    </div>
+    <Router />
   );
 }
 

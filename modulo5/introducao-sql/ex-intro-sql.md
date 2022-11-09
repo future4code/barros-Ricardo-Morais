@@ -61,7 +61,7 @@ VALUES(
 );
 ```
 
-# Exercício 3-
+# Exercício 3
 
 ### A-
 
@@ -89,6 +89,35 @@ O valor nome não existe, e sim **name**, então eu corrigi e ficou assim:
 ```sql
 SELECT id, name from Actor WHERE id = "002";
 ``` 
+
+# Exercício 4
+
+### A-
+```sql
+SELECT * FROM Actor
+WHERE (name LIKE "A%" OR name LIKE "J%") AND salary > 300000
+```
+Essa query seleciona todos os atores e filtra apenas os atores onde os nomes começam com a letra A ou J através do comparador **LIKE** e **OR**, depois usa o operador lógico **AND** para selecionar os atores com salário maior que 300000.
+
+### B-
+```sql
+SELECT * FROM Actor
+WHERE name NOT LIKE "A%" AND salary > 350000
+```
+### C-
+```sql
+SELECT * FROM Actor
+WHERE name LIKE "%G%" OR "%g%"
+```
+### D-
+```sql
+SELECT * FROM Actor
+WHERE 
+	(name LIKE "%g%" OR name LIKE "%G%" OR name LIKE "%a%" OR name LIKE "%A%")
+  AND salary BETWEEN 350000 AND 900000;
+```
+
+
 
 
 

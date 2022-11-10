@@ -116,7 +116,64 @@ WHERE
 	(name LIKE "%g%" OR name LIKE "%G%" OR name LIKE "%a%" OR name LIKE "%A%")
   AND salary BETWEEN 350000 AND 900000;
 ```
+# Exercício 5
 
+### A-
+```sql
+CREATE TABLE Movie (
+	id VARCHAR(255) PRIMARY KEY,
+    title VARCHAR(255) NOT NULL UNIQUE,
+    synopsis TEXT NOT NULL,
+    release_Date DATE NOT NULL,
+    rating INT NOT NULL
+)
+```
+Essa tabela de filmes tem um **id** com 255 caracteres no máximo, e mais 4 valores obrigatórios sendo o valor **title** também com no máximo de 255 caracteres.
+
+### B-
+```sql
+INSERT INTO Movie (id, title, synopsis, release_date, rating)
+VALUES(
+  "001", 
+  "Se Eu Fosse Você",
+  "Cláudio e Helena são casados há muitos anos e enfrentam a rotina do casamento. Um dia eles são atingidos por um fenômeno inexplicável e trocam de corpos",
+  "2006/01/06", 
+  7
+  );
+```
+### C-
+```sql
+INSERT INTO Movie (id, title, synopsis, release_date, rating)
+VALUES(
+  "002", 
+  "Doce de mãe",
+  "Dona Picucha, uma animada senhora de 85 anos, sempre causa grandes confusões. A vida dela e dos seus quatro filhos sofre uma reviravolta depois que Zaida, empregada e amiga de Dona Picucha, anuncia que vai se casar e não poderá mais morar com ela",
+  "2012/12/27", 
+  10
+);
+```
+### D-
+```sql
+INSERT INTO Movie (id, title, synopsis, release_date, rating)
+VALUES(
+	"003", 
+	"Dona Flor e Seus Dois Maridos",
+	"Dona Flor é uma sedutora professora de culinária casada com Vadinho, que só quer saber de farras e jogatina nas boates. A vida de abusos acaba por acarretar sua morte precoce.",
+	"2017/11/02", 
+	8
+  );
+```
+### E-
+```sql
+INSERT INTO Movie (id, title, synopsis, release_date, rating)
+VALUES(
+	"004", 
+	"A Vida é Bela",
+	"Durante a Segunda Guerra na Itália, o judeu Guido e seu filho Giosué são levados para um campo de concentração nazista. Afastado da mulher, ele tem que usar sua imaginação para fazer o menino acreditar que estão participando de uma grande brincadeira, com o intuito de protegê-lo do terror e da violência que os cercam.",
+	"1999/02/05", 
+	10
+  );
+```
 
 
 

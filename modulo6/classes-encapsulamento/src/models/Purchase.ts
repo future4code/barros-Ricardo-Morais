@@ -1,4 +1,5 @@
 // type para tipar no typescript com camelCase
+/*
 export type Purchase = {
     id: string,
     userId: string,
@@ -15,3 +16,4 @@ export type PurchaseDB = {
     quantity: number,
     total_price: number
 }
+*/

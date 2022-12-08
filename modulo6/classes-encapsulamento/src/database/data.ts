@@ -1,6 +1,7 @@
-import { Product } from "../models/Product";
-import { PurchaseDB } from "../models/Purchase";
-import { User } from "../models/User";
+import { Product } from "../classes/Product";
+import { Purchase } from "../classes/Purchase";
+import { User } from "../classes/User";
+import { PurchaseDB } from "../classes/Purchase";
 
 export const users: User[] = [
     {

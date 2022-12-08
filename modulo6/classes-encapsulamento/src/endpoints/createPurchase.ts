@@ -1,8 +1,8 @@
 import { Request, Response } from "express"
 import connection from "../database/connection"
 import { TABLE_PRODUCTS, TABLE_PURCHASES, TABLE_USERS } from "../database/tableNames"
-import { Product } from "../models/Product"
-import { Purchase } from "../models/Purchase"
+import { Product } from "../classes/Product"
+import { Purchase } from "../classes/Purchase"
 
 export const createPurchase = async (req: Request, res: Response) => {
     let errorCode = 400

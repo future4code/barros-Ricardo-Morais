@@ -1,0 +1,13 @@
+
+
+POST http://localhost:3003/user 
+Content-Type: application/json
+
+{
+    "name": "Ricardo Barros",
+    "nickname": "RCD",
+    "email": "ricardo_teleco@hotmail.com",
+    "password": "191010"
+}
+
+###

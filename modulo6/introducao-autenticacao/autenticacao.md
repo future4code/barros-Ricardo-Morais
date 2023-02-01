@@ -1,0 +1,1 @@
+### Eu não conseguir fazer os exercícios de hoje, pois cheguei muito tarde do serviço!
